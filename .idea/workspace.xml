@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.对象类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-强制类型转换-String.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-强制类型转换-Number.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.定义变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.定义变量.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-强制类型转换-Number.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4-强制类型转换-String.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,12 +57,15 @@
         <option value="$PROJECT_DIR$/对象类型.js" />
         <option value="$PROJECT_DIR$/对象类型.html" />
         <option value="$PROJECT_DIR$/2.数据类型.html" />
+        <option value="$PROJECT_DIR$/强制类型转换-String.html" />
+        <option value="$PROJECT_DIR$/4-强制类型转换-String.html" />
+        <option value="$PROJECT_DIR$/5-强制类型转换-Number.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="58" />
+    <option name="x" value="205" />
+    <option name="y" value="101" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -100,14 +120,16 @@
       <updated>1553171538278</updated>
       <workItem from="1553171540726" duration="314000" />
       <workItem from="1553171912629" duration="4125000" />
+      <workItem from="1553349796445" duration="2311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4439000" />
+    <option name="totallyTimeSpent" value="6750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="58" width="1388" height="799" extended-state="0" />
+    <frame x="205" y="101" width="1388" height="799" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -132,9 +154,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/定义变量.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/定义变量.js" />
     <entry file="file://$PROJECT_DIR$/1.定义变量.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -142,9 +162,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/对象类型.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/对象类型.js" />
     <entry file="file://$PROJECT_DIR$/3.对象类型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -156,6 +174,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-强制类型转换-Number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-强制类型转换-String.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>

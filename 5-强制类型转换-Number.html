@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    * 将其他数据类型转换为Number
+    *   方式一：
+    *       使用Number（）函数
+    *        -  字符串 --> 数字
+    *               1.如果是纯数字的字符串，则直接转换为数字
+    *               2.如果是字符串中含有非数字的内容，则转换为NaN
+    *               3.如果字符串是一个空串或者是一个全是空格的字符串 转换为0
+    *
+    *        -  布尔值 --> 数字
+    *               true --> 1
+    *               false --> 0
+    *
+    *        -  null --> 0
+    *
+    *        -  undefined  --> 数字NaN
+    *
+    *
+    *
+    *   方式二：   这种方式专门用来对付 字符串
+    *       - parseInt（）把一个字符串转换为整数  // 可以将一个字符串中有效的整数内容取出来 parseInt（‘234a858’）--> 234
+    *       - parseFloat（）把一个字符串转换为浮点数 //和parseInt（）类似，不同的是它可以获得一个有效的小数
+    *
+    *       如果对非String使用parseInt（）或parseFloat（）
+    *           它会将其先转换为String然后在操作
+    *              var a = true
+    *              parseInt（a）会先将a转换为字符串‘true’然后转化为NaN
+    *
+    *
+    *
+    *
+    *       总结：转为数字的类型有 1、0、数字、NaN
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    * */
+</script>
+</body>
+</html>
