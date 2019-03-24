@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *       将其他类型转换为Boolean
+    *           -使用Boolean（）函数
+    *               - 数字 --> 布尔
+    *                   - 除了0和NaN，其余都是true
+    *               - 字符串 -->布尔
+    *                   - 除了空串，其余都是true
+    *               - null和undefined都会转换成false
+    *               - 对象也会转换为true
+    *
+    *
+    *
+    *           总结：0、NaN、''、null、undefined这五项都转化为false，其余都转化为true
+    *
+    *
+    *
+    *
+    * */
+//1.数字 只有0和NaN转换为false
+    var a = 123;//true
+    a = Boolean(a);
+
+    a = 0;//false
+    a = Boolean(a);
+
+    a = -123;//true
+    a = Boolean(a);
+
+    a = NaN;//false
+    a = Boolean(a);
+
+    a = Infinity;//true
+    a = Boolean(a);
+
+//2.字符串   只有''转换为false
+    a = 'true';//true
+    a = Boolean(a);
+
+
+    a = 'false';//true
+    a = Boolean(a);
+
+
+    a = '';//false
+    a = Boolean(a);
+
+//3.null和undefined都转化为false
+
+    a = null;//false
+    a = Boolean(a);
+
+
+    a = undefined;//false
+    a = Boolean(a);
+
+
+    console.log(a)
+</script>
+</body>
+</html>
