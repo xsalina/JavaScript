@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *   !非
+    *       - ！可以用来对一个值进行非运算
+    *       - 所谓非运算就是对一个布尔值进行取反操作，
+    *           true变成false，false变成true
+    *       - 如果对非布尔值进行运算，则会将其转换为布尔值，然后再取反，
+    *        所以我们可以利用该特点，来将一个其他的数据转换为布尔值
+    *        可以为一个任意的数据类型取两次反，来将其转换为布尔值，原理和Boolean（）函数一样
+    *
+    *   &&与
+    *       - && 可以对符号两侧的值进行与运算并返回结果
+    *       -运算规则
+    *            -两个值中只要有一个值为false就返回false
+    *               只有两个值为true，则返回true
+    *
+    *            - JS中如果第一个为false，则不会去看第二个
+    *
+    *
+    *   ||或
+    *       - ||可以对符号两侧的值进行或运算并返回结果
+    *       - 运算规则
+    *           - 两个值中只要有一个true，就返回true
+    *               如果两个值都为false，才返回false
+    *           - JS中的‘或’属于短路的或
+    *               如果第一个值为true，则不会检查第二个
+    *
+    *
+    *
+    * */
+    var a = false;
+    a = !a;
+    console.log(a)//true
+
+    var a = 10;
+    a = !!a;
+    console.log(a);//true
+
+
+    var a = 0;
+    a = !!a;
+    console.log(a);//false
+
+    //如果两个值都是true则返回true
+    var result = true && true;
+    console.log(result);//true
+
+    //只要有一个false就为false
+    var result = true && false;
+    console.log(result);//false
+
+    var result = false && true;
+    console.log(result);//false
+
+    var result = false && false;
+    console.log(result);//false
+
+
+    result = false || true;//true
+
+    result = true || false;//true
+
+    result = false || false;//false
+
+</script>
+</body>
+</html>

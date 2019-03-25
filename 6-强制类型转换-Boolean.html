@@ -19,7 +19,11 @@
     *                   - 除了空串，其余都是true
     *               - null和undefined都会转换成false
     *               - 对象也会转换为true
-    *
+    *           - 使用隐式类型转换
+    *               -为任意的数据类型做两次非运算，即可将其转换为Boolean
+    *               - 例子
+    *                   var a = 10;
+    *                       a = !!a;//true
     *
     *
     *           总结：0、NaN、''、null、undefined这五项都转化为false，其余都转化为true

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*  自增 ++
+            - 通过自增可以使变量在自身的基础上增加1
+            - 自增分成两种：后++（a++） 和 前++（++a）
+                无论是a++ 还是 ++a ,都会立即使原变量的值自增1
+                    不同的是a++ 和 ++a的值不同
+                    a++的值等于原变量的值（自增前的值）
+                    ++a的值等于新值（自增后的值）
+    *
+    *
+    *
+    *   自减 --
+    *       - 通过自减可以使变量在自身的基础上减一
+    *       - 自减分成两种：后--（a--）和前--（--a）
+    *       无论是a--还是--a，都会立即使原变量的值自减1
+    *               不同的是a-- 和 --a的值不同
+    *               a--的值等于原变量的值（自增前的值）
+                    --a的值等于新值（自增后的值）
+    *
+    *
+    *
+    * */
+    var a = 10;
+    // console.log(a++)//10,这是变化之前的值
+    a++;
+
+    console.log(a)//11
+
+    var b = 10;
+    console.log(++b)//11,这是变化之后的值
+    ++b;
+
+    console.log(b)//12
+
+
+    var c = 10;
+    var e = ++c + c++ + c;
+    console.log(e);//11 + 11 + 12 = 34
+
+
+    var z = 10;
+    // console.log(--z);
+    console.log(z--);
+</script>
+</body>
+</html>
