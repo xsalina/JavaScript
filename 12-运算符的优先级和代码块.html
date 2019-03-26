@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *   就和数学中，在js中运算符也有优先级
+    *   比如：先乘除，后加减
+    *
+    *   在js中有一个运算符优先级的表，
+    *       在表中越靠上优先级越高，优先级越高越优先计算，
+    *       如果优先级一样，则从左往右计算。
+    *       但是这个表我们并不需要记忆，如果遇到优先级不清楚的可以使用括号（）来改变优先级
+    *
+    *   我们的程序是由一条一条语句构成的
+    *       语句是按照自上而下的顺序一条一条执行的，在js中可以使用{}来为语句进行分组，
+    *       同一个{}中的语句我们成为是一组语句，它们要么都执行，要么都不执行，一个{}中的语句我们也称之为一个代码块
+    *       在代码块后边就不用编写;了
+    *
+    *     js中的代码块，只具有分组的作用，没有其他的用途。
+    *       代码块里面的内容，在外都是完全可见的。
+    *
+    * */
+    //如果 || 的优先级高或者两个一样高,则返回3.
+    //如果 && 的优先级高 ，则返回 1
+    var result = 1 || 2 && 3;
+    console.log('result = '+result);//1 , 所&&优先级比||高
+
+    {
+        console.log(1);
+        console.log(2)
+    }
+
+</script>
+</body>
+</html>
