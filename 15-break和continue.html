@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *  break 关键字可以用来退出switch或循环语句
+    *   不能再if语句中使用break和continue
+    *   break关键字，会立即终止离他最近的循环语句
+    *
+    *
+    *   continue 可以用来跳出此次循环
+    *       同样continue默认只会离它最近的循环起作用
+    *
+    *
+    * console.time(“计时器的名字”)可以用来开启一个计时器
+    * 它需要一个字符串作为参数，这个字符串会作为计时器的标识
+    *   console.timeEnd(“计时器的名字”)用来停止一个计时器，需要一个计时器的名字作为参数
+    *
+    * */
+    //0、1、2
+    for(let i = 0;i < 5; i++){
+        if(i = 3){
+            break;
+        }
+    }
+
+    for(var i = 0 ; i < 5; i ++){
+
+        console.log(i);
+        break;
+        for(var j = 0 ; j< 5; j++){
+            console.log(2)
+        }
+    }
+
+    //0、1、2、4、5
+    for(let i = 0;i < 5; i++){
+        if(i = 3){
+            continue;
+        }
+    }
+
+</script>
+</body>
+</html>
