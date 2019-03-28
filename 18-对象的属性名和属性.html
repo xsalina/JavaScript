@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    * 1.向对象中添加属性:
+    *   -对象的属性名不强制要求遵守标识符的规范
+    *       什么乱七八糟的名字都可以用
+    *   - 但是我们使用尽量按照标识符的规范去做
+    *
+    * var obj = new Object();
+    *
+    * obj.var = 'hello'
+    *
+    *   如果要使用特俗的属性名，不能采用.的操作
+    *    需要使用另一种方式：
+    *       语法：对象['属性名'] = 属性值
+    *       读取时也需要采用这种方式
+    *       obj['123'] = 789
+    *       console.log(obj['123'])
+    *
+    * 使用[]的方式比较好
+    * 2.可以用变量获取对象里面的值
+    *
+    * 比如
+    * var obj = new Object();
+    * obj['name'] = 'salina'
+    * obj['age'] = 18;
+    * var n = 'name'
+    * console.log(obj[n])//这样就可以用变量去访问这个值了
+    *
+    *
+    * in运算符
+    *       - 通过该运算符可以检查一个对象中是否含有指定的属性
+    *               如果有则返回true，没有则返回true
+    *       - 语法：
+    *           '属性名' in object
+    *
+    * */
+    obj = new Object();
+    obj['name'] = 'salina'
+    obj['age'] = 18;
+    console.log('name' in obj)//true
+    console.log('sex' in obj)//false
+</script>
+</body>
+</html>
