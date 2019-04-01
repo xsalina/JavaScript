@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *   break   使用break退出当前的循环
+    *   continue  使用continue跳出当前的循环
+    *   return   结束整个函数
+    *
+    *   返回值可以使任意的数据类型
+    *   也可以是一个对象，也可以是一个函数
+    *
+    *   function fun3(){
+    *       function fun4(){
+    *           console.log(1)
+    *       }
+    *       fun4();
+    *   }
+    *   fun3()//1
+    *
+    *
+    *function fun3(){
+    *       function fun4(){
+    *           console.log(1)
+    *       }
+    *       return fun4;
+    *   }
+    *   fun3()//fun4
+    *
+    *
+    *
+    *
+    *
+    *
+    * */
+    function fun(){
+        alert(1)
+        for(var i = 0;i < 5; i++){
+
+            if(i === 2) break;//使用break退出当前的循环
+            // if(i === 2) continue 使用continue跳出当前的循环
+            // if(i === 2) return 结束整个函数
+            console.log(i)
+        }
+
+    }
+    fun();
+</script>
+</body>
+</html>

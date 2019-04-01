@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    //创建一个对象
+    var obj = new Object();
+
+    //向对象中添加属性
+    obj.name ='salina'
+    obj.age = 18
+    //对象的属性值可以使任何的数据类型，也可以是个函数
+    obj.sayName = function(){
+        console.log(obj.name)
+    }
+    function fun(){
+        console.log(obj.name)
+    }
+    //调方法
+    obj.sayName();//salina
+
+    //调函数
+    fun()
+    /*
+    * 函数可以称为对象的属性，
+    *  如果一个函数作为一个对象的属性保存
+    *  name我们称这个函数是这个对象的方法
+    *  调用这个函数就说调用对象的方法（method）
+    *
+    *
+    *  但是它只是名称上的区别没有别的区别
+    *
+    *
+    * */
+    var obj3 ={
+        name:'salina',
+        age:18,
+        sayName:function(){
+            console.log(111);
+        }
+    }
+    obj3.sayName()//111
+</script>
+</body>
+</html>

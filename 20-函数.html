@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    *   //函数
+    *   - 函数也是一个对象
+    *   - 函数中可以封装一些功能（代码），在需要是可以执行这些代码
+    *   -函数中可以保存一些代码在需要的时候调用
+    *
+        return后的值将会作为函数的执行结果返回，可以定义一个变量来接收该结果，
+        在函数中return后的语句都不会执行 如果return语句后不跟任何值就相当于返回一个undefined，
+        如果函数中不写return，则也会返回undefined
+    *
+    *
+    *
+    *
+    *   在调用函数时，浏览器每次都会传递进两个隐含的参数
+    *       1.函数的上下文对象this，
+    *       2.封装实参的对象arguments
+    *           -arguments是一个类数组对象
+    *           -在调用函数时，我们所传递的实参都会在arguments中保存
+    *           -arguments.length可以用来获取实参的长度
+    *       -它里面有一个属性叫做callee，
+    *       这个属性对应一个函数对象，就是当前正在指向的函数的对象
+    * */
+    function fun(){
+        console.log(arguments.length)
+        console.log(arguments[0])//123
+        console.log(arguments[1])//888
+
+        console.log(arguments.callee);//函数对象
+        console.log(arguments.callee == fun)//true
+    }
+    fun(123,888,true)
+</script>
+</body>
+</html>
