@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    * 作用域
+    *   -作用域指一个变量的作用范围
+    *   -在js中一共有两种作用于
+    *       1.全局作用域
+    *               - 直接编写在script标签中的js代码，
+    *               - 全局作用域在页面打开时创建，在页面关闭时销毁
+    *               - 在全局作用域中有一个全局对象window，它代表的是一个浏览器的窗口，它由我们的浏览器创建
+    *               - 在全局作用域中：
+    *                   创建的变量都会作为window对象的属性保存
+    *                   创建的函数对象都会作为window对象保存
+    *               - 全局作用域的变量都是全局变量，
+    *                   在页面的任意的部分可以访问到
+    *       2.函数作用域
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    * */
+    // 创建的变量都会作为window对象的属性保存
+    var a = 10;
+    var b = 20;
+    console.log(window.a);//10
+    console.log(window.b);//20
+
+    function fun(){
+        console.log('我是function');
+    }
+
+    window.fun();
+    fun()
+
+
+    /*
+    * 变量的声明提升
+    *   - 使用var关键字声明的变量，会在所有的代码执行之前被声明
+    *           但是如果声明变量不适用var关键字，则变量不会被声明提前
+    *
+    * 函数的声明提前
+    *   - 使用函数声明形式创建的函数 function 函数名(){}
+    *       它会在所有的代码执行之前就被创建，所以我们可以在函数声明前调用
+    *   - 使用函数表达式创建的函数，不会被声明提前，所以不能在声明前使用
+    *
+    *
+    *
+    * */
+        console.log('a ='+c)
+        var c = 10
+
+    fun();//正常打印
+    fun2()//报错显示undefined,因为var,fun2会被变量提升，但是还未赋值，
+
+    //函数声明，会被提前创建
+    function fun(){
+            console.log(fun);
+    }
+    //函数表达式，不会被提前创建
+    var fun2 = function(){
+        console.log(fun2);
+    }
+</script>
+</body>
+</html>
