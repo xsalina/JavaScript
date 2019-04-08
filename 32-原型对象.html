@@ -85,6 +85,11 @@
     console.log(Personal3.hasOwnProperty('a'))//false
     console.log(Personal1.hasOwnProperty('a'))//true
 
+
+
+    //检查原型的原型上是否有hasOwnProperty
+    console.log(Personal3.__proto__.__proto__.hasOwnProperty('hasOwnProperty'))//true
+
 </script>
 </body>
 </html>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/32-原型对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32-原型对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/32-原型对象.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/32-原型对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="500">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="528" />
-    <option name="y" value="23" />
+    <option name="x" value="52" />
+    <option name="y" value="25" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -159,14 +159,16 @@
       <workItem from="1554473948651" duration="1458000" />
       <workItem from="1554731526873" duration="138000" />
       <workItem from="1554732094183" duration="1383000" />
+      <workItem from="1554734044577" duration="104000" />
+      <workItem from="1554734150956" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41338000" />
+    <option name="totallyTimeSpent" value="41480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="528" y="23" width="1388" height="799" extended-state="0" />
+    <frame x="52" y="25" width="1388" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14337966" />
@@ -410,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/32-原型对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="500">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
