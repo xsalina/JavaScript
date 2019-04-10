@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*
+    * 当我们直接在页面中打印一个对象时，事实上输出的是对象的toString（）方法的返回值
+    * 如果我们希望在输出对象时不输出，可以为对象添加一个toString方法
+    *
+    *
+    *
+    * */
+    function Person(name,age){
+        this.name = name
+        this.age = age
+    }
+
+    Person.prototype.toString = function(){
+        return '我是Person的toString方法'
+    }
+    var per = new Person('salina',18)
+    var result = per.toString()
+    console.log(result);
+    console.log(per)
+    console.log(per.__proto__.hasOwnProperty('toString'))//false
+    //Object上的toString
+    console.log(per.__proto__.__proto__.hasOwnProperty('toString'))//true
+
+    // per.toString = function(){
+    //     return '我是per的toString方法'
+    // }
+    console.log(per.toString)//自身有toString方法就执行，没有就上类的原型上去找，直到到Object，
+
+</script>
+</body>
+</html>

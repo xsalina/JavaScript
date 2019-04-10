@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/33-toString.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/32-原型对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/32-原型对象.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/32-原型对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="400">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/33-toString.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -81,12 +90,13 @@
         <option value="$PROJECT_DIR$/32-构造函数修改.html" />
         <option value="$PROJECT_DIR$/31-构造函数.html" />
         <option value="$PROJECT_DIR$/32-原型对象.html" />
+        <option value="$PROJECT_DIR$/33-toString.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="25" />
+    <option name="x" value="332" />
+    <option name="y" value="86" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -161,14 +171,15 @@
       <workItem from="1554732094183" duration="1383000" />
       <workItem from="1554734044577" duration="104000" />
       <workItem from="1554734150956" duration="38000" />
+      <workItem from="1554908343511" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41480000" />
+    <option name="totallyTimeSpent" value="42599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="25" width="1388" height="799" extended-state="0" />
+    <frame x="332" y="86" width="1388" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14337966" />
@@ -412,8 +423,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/32-原型对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="400">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33-toString.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
