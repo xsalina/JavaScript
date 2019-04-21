@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/39-数组剩余的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40-call和apply.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/39-数组剩余的方法.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="280">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -50,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/定义变量.js" />
-        <option value="$PROJECT_DIR$/定义变量.html" />
         <option value="$PROJECT_DIR$/1.定义变量.html" />
         <option value="$PROJECT_DIR$/对象类型.js" />
         <option value="$PROJECT_DIR$/对象类型.html" />
@@ -101,12 +108,14 @@
         <option value="$PROJECT_DIR$/39-jj.html" />
         <option value="$PROJECT_DIR$/39-数组方法.html" />
         <option value="$PROJECT_DIR$/39-数组剩余的方法.html" />
+        <option value="$PROJECT_DIR$/39-arrayMethods.html" />
+        <option value="$PROJECT_DIR$/40-call和apply.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="66" />
+    <option name="x" value="856" />
+    <option name="y" value="59" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -192,16 +201,19 @@
       <workItem from="1555846405743" duration="1326000" />
       <workItem from="1555848320914" duration="30000" />
       <workItem from="1555848550945" duration="35000" />
+      <workItem from="1555848804349" duration="32000" />
+      <workItem from="1555850715979" duration="1029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50783000" />
+    <option name="totallyTimeSpent" value="51844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="66" width="1388" height="799" extended-state="0" />
+    <frame x="856" y="59" width="1388" height="799" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14337966" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14337966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -498,10 +510,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/39-数组剩余的方法.html">
+    <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="280">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
