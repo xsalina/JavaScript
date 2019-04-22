@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/40-call和apply.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31-arguments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,17 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="1100">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+        <entry file="file://$PROJECT_DIR$/31-arguments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="180">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.定义变量.html" />
         <option value="$PROJECT_DIR$/对象类型.js" />
         <option value="$PROJECT_DIR$/对象类型.html" />
         <option value="$PROJECT_DIR$/2.数据类型.html" />
@@ -110,12 +118,13 @@
         <option value="$PROJECT_DIR$/39-数组剩余的方法.html" />
         <option value="$PROJECT_DIR$/39-arrayMethods.html" />
         <option value="$PROJECT_DIR$/40-call和apply.html" />
+        <option value="$PROJECT_DIR$/31-arguments.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="856" />
-    <option name="y" value="59" />
+    <option name="x" value="221" />
+    <option name="y" value="369" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -125,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,14 +212,15 @@
       <workItem from="1555848550945" duration="35000" />
       <workItem from="1555848804349" duration="32000" />
       <workItem from="1555850715979" duration="1029000" />
+      <workItem from="1555942707003" duration="1107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51844000" />
+    <option name="totallyTimeSpent" value="52951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="59" width="1388" height="799" extended-state="0" />
+    <frame x="221" y="369" width="1388" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14337966" />
@@ -512,8 +522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="1100">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
@@ -521,6 +531,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/31-arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
