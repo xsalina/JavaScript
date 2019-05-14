@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de00780-eef7-4b4e-97f3-dce7a991d6fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/31-arguments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/41-事件委托.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/41-事件的绑定.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,39 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/38-数组for循环去重.html">
+        <entry file="file://$PROJECT_DIR$/41-事件委托.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/40-call和apply.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="477">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/31-arguments.html">
+        <entry file="file://$PROJECT_DIR$/41-事件的绑定.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -68,8 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/对象类型.js" />
-        <option value="$PROJECT_DIR$/对象类型.html" />
         <option value="$PROJECT_DIR$/2.数据类型.html" />
         <option value="$PROJECT_DIR$/强制类型转换-String.html" />
         <option value="$PROJECT_DIR$/4-强制类型转换-String.html" />
@@ -119,12 +100,14 @@
         <option value="$PROJECT_DIR$/39-arrayMethods.html" />
         <option value="$PROJECT_DIR$/40-call和apply.html" />
         <option value="$PROJECT_DIR$/31-arguments.html" />
+        <option value="$PROJECT_DIR$/41-事件委托.html" />
+        <option value="$PROJECT_DIR$/41-事件的绑定.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="369" />
+    <option name="x" value="707" />
+    <option name="y" value="23" />
     <option name="width" value="1388" />
     <option name="height" value="799" />
   </component>
@@ -134,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +128,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,14 +196,17 @@
       <workItem from="1555848804349" duration="32000" />
       <workItem from="1555850715979" duration="1029000" />
       <workItem from="1555942707003" duration="1107000" />
+      <workItem from="1556373268258" duration="206000" />
+      <workItem from="1557134056193" duration="1000" />
+      <workItem from="1557843392961" duration="1500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52951000" />
+    <option name="totallyTimeSpent" value="54658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="369" width="1388" height="799" extended-state="0" />
+    <frame x="707" y="23" width="1388" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14337966" />
@@ -513,6 +499,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lll.html" />
     <entry file="file://$PROJECT_DIR$/39-jj.html" />
+    <entry file="file://$PROJECT_DIR$/31-arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/38-数组for循环去重.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -520,24 +527,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/39-arrayMethods.html">
+    <entry file="file://$PROJECT_DIR$/41-事件委托.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="477">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/40-call和apply.html">
+    <entry file="file://$PROJECT_DIR$/41-事件的绑定.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/31-arguments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
